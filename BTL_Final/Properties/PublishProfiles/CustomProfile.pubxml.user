@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\asp\publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/BTL_Final.dll">
+      <publishTime>05/01/2020 10:39:46</publishTime>
+    </File>
+    <File Include="bin/BTL_Final.pdb">
+      <publishTime>05/01/2020 10:39:46</publishTime>
+    </File>
+    <File Include="chi_tiet_san_pham.aspx">
+      <publishTime>04/30/2020 16:15:07</publishTime>
+    </File>
+    <File Include="CSS/chi_tiet_san_pham.css">
+      <publishTime>05/01/2020 09:57:17</publishTime>
+    </File>
+    <File Include="CSS/font-awesome.min.css">
+      <publishTime>04/28/2020 16:39:53</publishTime>
+    </File>
+    <File Include="CSS/style.css">
+      <publishTime>05/01/2020 09:55:02</publishTime>
+    </File>
+    <File Include="fonts/all.css">
+      <publishTime>04/29/2020 14:37:59</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>04/29/2020 14:37:59</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>04/29/2020 14:37:59</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>04/29/2020 14:37:59</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>04/29/2020 14:37:59</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff2">
+      <publishTime>04/29/2020 14:37:59</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>04/29/2020 14:37:59</publishTime>
+    </File>
+    <File Include="fonts/LICENSE.txt">
+      <publishTime>04/29/2020 14:37:59</publishTime>
+    </File>
+    <File Include="fonts/OpenSans-Italic.ttf">
+      <publishTime>04/29/2020 14:37:59</publishTime>
+    </File>
+    <File Include="fonts/OpenSans-Light.ttf">
+      <publishTime>04/29/2020 14:37:59</publishTime>
+    </File>
+    <File Include="fonts/OpenSans-LightItalic.ttf">
+      <publishTime>04/29/2020 14:37:59</publishTime>
+    </File>
+    <File Include="fonts/OpenSans-Regular.ttf">
+      <publishTime>04/29/2020 14:37:59</publishTime>
+    </File>
+    <File Include="fonts/OpenSans-Semibold.ttf">
+      <publishTime>04/29/2020 14:37:59</publishTime>
+    </File>
+    <File Include="fonts/OpenSans-SemiboldItalic.ttf">
+      <publishTime>04/29/2020 14:37:59</publishTime>
+    </File>
+    <File Include="fonts/Roboto-Black.ttf">
+      <publishTime>04/29/2020 14:37:59</publishTime>
+    </File>
+    <File Include="fonts/Roboto-BlackItalic.ttf">
+      <publishTime>04/29/2020 14:37:59</publishTime>
+    </File>
+    <File Include="fonts/Roboto-Bold.ttf">
+      <publishTime>04/29/2020 14:37:59</publishTime>
+    </File>
+    <File Include="fonts/Roboto-BoldItalic.ttf">
+      <publishTime>04/29/2020 14:37:59</publishTime>
+    </File>
+    <File Include="fonts/Roboto-Italic.ttf">
+      <publishTime>04/29/2020 14:37:59</publishTime>
+    </File>
+    <File Include="fonts/Roboto-Light.ttf">
+      <publishTime>04/29/2020 14:37:59</publishTime>
+    </File>
+    <File Include="fonts/Roboto-LightItalic.ttf">
+      <publishTime>04/29/2020 14:37:59</publishTime>
+    </File>
+    <File Include="fonts/Roboto-Medium.ttf">
+      <publishTime>04/29/2020 14:37:59</publishTime>
+    </File>
+    <File Include="fonts/Roboto-MediumItalic.ttf">
+      <publishTime>04/29/2020 14:37:59</publishTime>
+    </File>
+    <File Include="fonts/Roboto-Regular.ttf">
+      <publishTime>04/29/2020 14:38:00</publishTime>
+    </File>
+    <File Include="fonts/Roboto-Thin.ttf">
+      <publishTime>04/29/2020 14:38:00</publishTime>
+    </File>
+    <File Include="fonts/Roboto-ThinItalic.ttf">
+      <publishTime>04/29/2020 14:38:00</publishTime>
+    </File>
+    <File Include="fonts/sharefonts.net.txt">
+      <publishTime>04/29/2020 14:38:00</publishTime>
+    </File>
+    <File Include="gio_hang.aspx">
+      <publishTime>04/30/2020 16:06:38</publishTime>
+    </File>
+    <File Include="Header_Footer.Master">
+      <publishTime>05/01/2020 09:57:03</publishTime>
+    </File>
+    <File Include="HtmlPage1.html">
+      <publishTime>04/30/2020 10:52:31</publishTime>
+    </File>
+    <File Include="img/1001.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1002.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1003.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1004.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1005.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1006.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1007.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1008.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1009.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1010.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1011.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1012.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1013.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1014.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1015.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1016.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1017.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1018.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1019.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1020.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1021.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1022.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1023.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1024.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1025.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1026.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1027.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1028.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1029.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1030.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1031.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1032.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1033.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1033.png">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1034.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1035.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1036.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1037.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1038.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1039.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1040.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1041.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1042.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1043.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1044.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1045.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1046.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1047.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1048.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1049.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1050.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1051.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1052.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1053.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1054.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1055.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1056.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1057.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1058.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1059.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1060.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1061.jpg">
+      <publishTime>04/27/2020 08:43:45</publishTime>
+    </File>
+    <File Include="img/1062.jpg">
+      <publishTime>04/27/2020 08:43:45</publishTime>
+    </File>
+    <File Include="img/1063.jpg">
+      <publishTime>04/27/2020 08:43:51</publishTime>
+    </File>
+    <File Include="img/1064.jpg">
+      <publishTime>04/27/2020 08:43:51</publishTime>
+    </File>
+    <File Include="img/1065.jpg">
+      <publishTime>04/27/2020 08:43:51</publishTime>
+    </File>
+    <File Include="img/1066.jpg">
+      <publishTime>04/27/2020 08:43:51</publishTime>
+    </File>
+    <File Include="img/1067.jpg">
+      <publishTime>04/27/2020 08:43:51</publishTime>
+    </File>
+    <File Include="img/1068.jpg">
+      <publishTime>04/27/2020 08:43:51</publishTime>
+    </File>
+    <File Include="img/1069.jpg">
+      <publishTime>04/27/2020 08:43:51</publishTime>
+    </File>
+    <File Include="img/1070.jpg">
+      <publishTime>04/27/2020 08:43:51</publishTime>
+    </File>
+    <File Include="img/1071.jpg">
+      <publishTime>04/27/2020 08:43:51</publishTime>
+    </File>
+    <File Include="img/1072.jpg">
+      <publishTime>04/27/2020 08:43:51</publishTime>
+    </File>
+    <File Include="img/1073.jpg">
+      <publishTime>04/27/2020 08:43:51</publishTime>
+    </File>
+    <File Include="img/1074.jpg">
+      <publishTime>04/27/2020 08:43:51</publishTime>
+    </File>
+    <File Include="img/1075.jpg">
+      <publishTime>04/27/2020 08:43:51</publishTime>
+    </File>
+    <File Include="img/1076.jpg">
+      <publishTime>04/27/2020 08:43:51</publishTime>
+    </File>
+    <File Include="img/1077.jpg">
+      <publishTime>04/27/2020 08:43:51</publishTime>
+    </File>
+    <File Include="img/1081.jpg">
+      <publishTime>04/27/2020 08:43:51</publishTime>
+    </File>
+    <File Include="img/1083.jpg">
+      <publishTime>04/27/2020 08:43:51</publishTime>
+    </File>
+    <File Include="img/1084.jpg">
+      <publishTime>04/27/2020 08:43:51</publishTime>
+    </File>
+    <File Include="img/1085.jpg">
+      <publishTime>04/27/2020 08:43:51</publishTime>
+    </File>
+    <File Include="img/1087.jpg">
+      <publishTime>04/27/2020 08:43:51</publishTime>
+    </File>
+    <File Include="img/1096.jpg">
+      <publishTime>04/27/2020 08:43:51</publishTime>
+    </File>
+    <File Include="img/1097.jpg">
+      <publishTime>04/27/2020 08:43:51</publishTime>
+    </File>
+    <File Include="img/1098.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1099.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1100.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1101.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1102.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1103.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1104.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1105.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1106.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1107.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1108.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1109.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1110.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1111.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1112.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1113.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1114.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1115.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1116.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1117.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1118.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1119.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1120.gif">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1121.gif">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1122.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1123.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/1124.png">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/amd.jpg">
+      <publishTime>04/30/2020 08:49:02</publishTime>
+    </File>
+    <File Include="img/apple.jpg">
+      <publishTime>04/30/2020 08:49:02</publishTime>
+    </File>
+    <File Include="img/dell.jpg">
+      <publishTime>04/30/2020 08:49:02</publishTime>
+    </File>
+    <File Include="img/gucci 1995.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/hp.jpg">
+      <publishTime>04/30/2020 08:49:02</publishTime>
+    </File>
+    <File Include="img/intel.jpg">
+      <publishTime>04/30/2020 08:49:02</publishTime>
+    </File>
+    <File Include="img/logoTwo.png">
+      <publishTime>04/29/2020 14:47:33</publishTime>
+    </File>
+    <File Include="img/motorola.jpg">
+      <publishTime>04/30/2020 08:49:02</publishTime>
+    </File>
+    <File Include="img/nokia.jpg">
+      <publishTime>04/30/2020 08:49:02</publishTime>
+    </File>
+    <File Include="img/product.png">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/Rado 9500.jpg">
+      <publishTime>04/27/2020 08:43:52</publishTime>
+    </File>
+    <File Include="img/samsung.jpg">
+      <publishTime>04/30/2020 08:49:02</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>04/30/2020 09:26:06</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>05/01/2020 10:39:47</publishTime>
+    </File>
+    <File Include="Script/chi_tiet_san_pham.js">
+      <publishTime>04/29/2020 21:40:55</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/01/2020 10:39:47</publishTime>
+    </File>
+    <File Include="webfonts/fa-brands-400.eot">
+      <publishTime>04/29/2020 14:21:25</publishTime>
+    </File>
+    <File Include="webfonts/fa-brands-400.svg">
+      <publishTime>04/29/2020 14:21:25</publishTime>
+    </File>
+    <File Include="webfonts/fa-brands-400.ttf">
+      <publishTime>04/29/2020 14:21:25</publishTime>
+    </File>
+    <File Include="webfonts/fa-brands-400.woff">
+      <publishTime>04/29/2020 14:21:25</publishTime>
+    </File>
+    <File Include="webfonts/fa-brands-400.woff2">
+      <publishTime>04/29/2020 14:21:25</publishTime>
+    </File>
+    <File Include="webfonts/fa-regular-400.eot">
+      <publishTime>04/29/2020 14:21:25</publishTime>
+    </File>
+    <File Include="webfonts/fa-regular-400.svg">
+      <publishTime>04/29/2020 14:21:25</publishTime>
+    </File>
+    <File Include="webfonts/fa-regular-400.ttf">
+      <publishTime>04/29/2020 14:21:25</publishTime>
+    </File>
+    <File Include="webfonts/fa-regular-400.woff">
+      <publishTime>04/29/2020 14:21:25</publishTime>
+    </File>
+    <File Include="webfonts/fa-regular-400.woff2">
+      <publishTime>04/29/2020 14:21:25</publishTime>
+    </File>
+    <File Include="webfonts/fa-solid-900.eot">
+      <publishTime>04/29/2020 14:21:25</publishTime>
+    </File>
+    <File Include="webfonts/fa-solid-900.svg">
+      <publishTime>04/29/2020 14:21:25</publishTime>
+    </File>
+    <File Include="webfonts/fa-solid-900.ttf">
+      <publishTime>04/29/2020 14:21:25</publishTime>
+    </File>
+    <File Include="webfonts/fa-solid-900.woff">
+      <publishTime>04/29/2020 14:21:25</publishTime>
+    </File>
+    <File Include="webfonts/fa-solid-900.woff2">
+      <publishTime>04/29/2020 14:21:25</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

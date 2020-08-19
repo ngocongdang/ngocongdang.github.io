@@ -1,0 +1,239 @@
+﻿.bodycontent {
+  min-height: 692px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    border-left: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+}
+div{
+    border:0;
+}
+.main_cart{
+     display: flex;
+     align-items: center;
+     justify-content: center
+}
+
+.menu_wrapper {
+    border-top: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+}
+.cart_product, .bill_info, .header_rows, .rows {
+    border:1px solid #d4d4d4;
+}
+div.cart_product {
+    width: 57%;
+    float: left;
+    text-align: left;
+    padding-left: 15px;
+    border: 0px;
+}
+
+div.bill_info {
+    width: 40%;
+    float: left;
+    text-align: left;
+    padding: 20px;
+    border: 0px;
+}
+
+.title {
+    font-size: 15pt;
+    margin-top: 20px;
+}
+
+div.bill_info table {
+    width: 100%;
+}
+
+    div.bill_info table td input[type="text"] {
+        background-color: #f0f0f0;
+        outline: none;
+        border: 1px solid #bababa;
+        padding: 10px;
+        width: 94%;
+    }
+
+        div.bill_info table td textarea {
+            width: 94%;
+            background-color: #f0f0f0;
+            outline: none;
+            border: 1px solid #bababa;
+            padding: 10px;
+            height: 50px;
+            resize: none;
+        }
+
+        div.bill_info table td {
+            padding-top: 15px;
+            font-size: 11pt;
+        }
+
+    div.bill_info button {
+        width: calc((100% - 5px)/2);
+        float: left;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        color: #fff;
+        border: none;
+        font-weight: bold;
+        margin-top: 10px;
+        transition: 0.2s;
+    }
+
+button.CODpayment {
+    margin-right: 5px;
+    background: -webkit-linear-gradient(top,#288ad6,#0e74c2);
+}
+button.CODpayment:hover {
+    background: -webkit-linear-gradient(top,#0e74c2,#288ad6);
+}
+button.ONLpayment {
+    background: -webkit-linear-gradient(top,#990000,#660000);
+}
+button.ONLpayment:hover {
+    background: -webkit-linear-gradient(top,#660000,#990000);
+}
+
+span.red {
+    color: #990000;
+    font-size: 11pt;
+}
+
+.header_rows, .rows {
+    display: flex;
+}
+
+.header_rows {
+    margin-top: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+    .header_rows label {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+.rows {
+    border-top: 0px;
+    padding: 10px;
+    text-align: left;
+    align-items: center;
+}
+
+    .rows img {
+        width: 75px;
+        height:75px;
+        position: relative;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .rows label {
+        margin: 0;
+    }
+
+.remove {
+    width: 50px;
+    margin: 0;
+    text-align: right;
+}
+
+.css-bt{
+     display:flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.name {
+    width: 190px;
+    padding-right: 10px;
+    margin: 0;
+    font-size: 9pt;
+}
+
+
+#cart_form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#cart_form_content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    width: 105px;
+}
+
+    .quantity{
+        border: 1px solid #d4d4d4;
+        width: 50px;
+        margin:0;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+    }
+.totalPrice {
+    text-align: right;
+    width: 110px;
+    color: #990000;
+}
+.buy_more {
+    display:block;
+    background-color: #288ad6;
+    font-weight:bold;
+    margin-top:20px;
+    font-size:8pt;
+    color:#fff;
+    width:125px;
+    border-radius:30px;
+    padding:12px;
+    text-align:center;
+}
+.buy_more:hover {
+    background-color: #0e74c2;
+    color:#fff;
+}
+.cart_row{
+    border:0px;
+}
+.updateCart_totalPrice{
+    border:0;
+    display:flex;
+    align-items:center;
+    text-align:left;
+    margin-top:15px;
+}
+.updateCart_totalPrice button{
+    background-color: #fff;
+    font-size: 8pt;
+    color: #990000;
+    border: 1px solid #d4d4d4;
+    margin:0;
+    width:150px;
+    border-radius: 30px;
+    padding: 12px;
+    outline:none;
+    transition: 0.2s;
+}
+.updateCart_totalPrice  button:hover{
+    background-color: #d4d4d4;
+}
+.updateCart_totalPrice p{
+    margin:0;
+    text-align:right;
+    width:calc(100% - 150px);
+    font-size: 14pt;
+    padding-right: 10px;
+}
+.updateCart_totalPrice span{
+    color: #990000;
+    font-size:14pt;
+}

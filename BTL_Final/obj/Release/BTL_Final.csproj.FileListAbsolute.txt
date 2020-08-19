@@ -1,0 +1,8 @@
+D:\Study\C# Projects\BTL_Final (1)\BTL_Final\BTL_Final\bin\BTL_Final.dll.config
+D:\Study\C# Projects\BTL_Final (1)\BTL_Final\BTL_Final\bin\BTL_Final.dll
+D:\Study\C# Projects\BTL_Final (1)\BTL_Final\BTL_Final\bin\BTL_Final.pdb
+D:\Study\C# Projects\BTL_Final (1)\BTL_Final\BTL_Final\bin\Newtonsoft.Json.dll
+D:\Study\C# Projects\BTL_Final (1)\BTL_Final\BTL_Final\bin\Newtonsoft.Json.xml
+D:\Study\C# Projects\BTL_Final (1)\BTL_Final\BTL_Final\obj\Release\BTL_Final.csprojResolveAssemblyReference.cache
+D:\Study\C# Projects\BTL_Final (1)\BTL_Final\BTL_Final\obj\Release\BTL_Final.dll
+D:\Study\C# Projects\BTL_Final (1)\BTL_Final\BTL_Final\obj\Release\BTL_Final.pdb

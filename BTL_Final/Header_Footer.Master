@@ -1,0 +1,228 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Header_Footer.master.cs" Inherits="BTL_Final.Header_Footer" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+     <title>Chozoi</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="CSS/font-awesome.min.css" rel="stylesheet">
+     <link href="CSS/style.css" rel="stylesheet">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="CSS/user.css" rel="stylesheet" />
+     <script src="Script/login.js"></script>
+     <asp:ContentPlaceHolder ID="head" runat="server">
+     </asp:ContentPlaceHolder>
+</head>
+<body>
+     <header>
+          <section class="section header">
+               <div class="container">
+                    <div class="header-top">
+                         <div class="logo-header">
+                              <a href="index.aspx">
+                                   <img src="img/hanh.png"</a>
+                              <div class="css_cate">
+                                   <div class="category-header">
+                                        <i class="fa fa-align-left"></i>
+                                        <a runat="server" id="Danh" href="">Danh Mục</a>
+                                   </div>
+                                   <div runat="server" id="list_categories" class="list-categories">
+                                        <ul>
+                                             <li class="item-category">
+                                                  <a href="" class="items">Thời trang nữ</a>
+                                                  <div class=""></div>
+                                             </li>
+                                             <li class="item-category">
+                                                  <a href="" class="items">Thời trang nam</a>
+                                             </li>
+                                             <li class="item-category">
+                                                  <a href="" class="items">Sức khỏe - Sắc đẹp</a>
+                                             </li>
+                                        </ul>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="form-search">
+                              <input runat="server" type="text" id="txtSearch" name="txtSearch" class="form_search_input" placeholder="Nhập tên sản phẩm">
+                              <a href="" runat="server" class="form_search_button" id="btnSearch" onclick="toSearchPage()"><i class="fa fa-search"></i></a>
+                         </div>
+                         <script>
+                              function toSearchPage() {
+                                   window.location.href = "../danh_sach_san_pham.aspx?search=" + document.getElementById("txtSearch").value.trim();
+                              }
+                         </script>
+                         <div class="user_cart" id="user_cart">
+                              <div class="user">
+                                   <script>
+                                        var customerinfo = JSON.parse(sessionStorage.getItem("CustomerInfo"));
+                                        if (customerinfo != null) {
+                                             var html = "<div class='user'><i class=\"fa fa-user-o\"></i>";
+                                             html += "<div id='logout'><p>Chào mừng " + customerinfo.Fullname + " đến với <span style=\"color: rgb(245, 75, 36);\">Chozoi !</span></p>";
+                                             html += "<br/><button class=\"logout\" onclick=\"sessionStorage.clear();window.location.reload();\">Đăng xuất</button></div></div>";
+                                             document.getElementById("user_cart").innerHTML = html;
+                                        }
+
+                                   </script>
+                                   <i class="fa fa-user-o"></i>
+                                   <div class="login-register" id="login-register">
+                                        <p>
+                                             Chào mừng bạn đến với 
+                                   <span style="color: rgb(245, 75, 36);">Chozoi !</span>
+                                        </p>
+                                        <button class="login" onclick="window.location.href='#form_login'">Đăng nhập</button>
+                                        <button class="register" onclick="window.location.href='#xmas-popup'">Đăng kí</button>
+                                   </div>
+                              </div>
+
+                              <div id="xmas-popup" class="popup" href="#">
+                                   <form action="" method="get" onsubmit="return addProduct()" name="signupform">
+                                        <div class="popup-content">
+                                             <a href="#" class="close">x</a>
+                                             <h2>Đăng kí</h2>
+                                             <div class="row">
+                                                  <h4 runat="server" id="hehe">Tài khoản</h4>
+                                                  <div class="input-group">
+                                                       <input type="text" placeholder="Họ tên" id="fullName" name="fullName" />
+                                                  </div>
+                                                  <div class="input-group">
+                                                       <input type="text" placeholder="Tên đăng nhập" id="userName" name="userName" />
+                                                  </div>
+                                                  <div class="input-group input-group-icon">
+                                                       <input type="password" placeholder="Mật khẩu" id="passWord" name="passWord" />
+                                                  </div>
+
+                                                  <div class="input-group input-group-icon">
+                                                       <input type="password" placeholder="Mật khẩu" id="reinput-passWord" />
+                                                  </div>
+                                                  <div class="error" id="message-TK"></div>
+                                             </div>
+                                             <div class="row">
+                                                  <h4>Chi tiết</h4>
+                                                  <div class="input-group">
+                                                       <input type="text" placeholder="Số điện thoại" id="phone-register" name="phone-register" />
+                                                  </div>
+                                                  <div class="error" id="message-phone"></div>
+                                                  <div class="input-group">
+                                                       <input class="email-register" type="text" placeholder="Email" id="email-register" name="email-register" />
+                                                  </div>
+                                                  <div class="error" id="message_email"></div>
+                                                  <div class="input-group">
+                                                       <input class="email-register" type="text" placeholder="Địa chỉ" id="adress-register" name="adress-register" />
+                                                  </div>
+                                             </div>
+                                             <div>
+                                             </div>
+                                             <div class="row">
+                                                  <div class="bt_button">
+                                                       <button type="button" class="cancel" onclick="location.href='#'">Hủy</button>
+                                                       <button runat="server" type="submit" class="btn_register" id="btnDangKi">Đăng kí</button>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </form>
+
+                              </div>
+
+                              <div class="form_login" id="form_login" href="#">
+                                   <form class="login_form" action="" method="get" onsubmit="Login()" name="loginform">
+                                        <div class="title">
+                                             <h3>Đăng nhập</h3>
+                                        </div>
+                                        <div class="error" id="message"></div>
+                                        <div class="username">
+                                             <input type="text" value="" id="username" name="usernamelogin" placeholder="UserName" />
+                                             <div class="error" id="message_username"></div>
+                                        </div>
+                                        <div class="passWord">
+                                             <input type="password" value="" id="password" name="passwordlogin" placeholder="PassWord" />
+                                             <div class="error" id="error_password"></div>
+                                        </div>
+                                        <div class="bt_button">
+                                             <button type="button" class="cancel" onclick="location.href='#'">Hủy</button>
+                                             <button type="submit" class="btn_login" id="btn_login">Đăng nhập</button>
+                                        </div>
+                                   </form>
+                              </div>
+
+                              <div class="user_itemCount css-1jh99p">
+                                   <div class="shopping-cart">
+                                        <a href="gio_hang.aspx">
+                                             <img src="img/cart.png"></a>
+                                   </div>
+                                   <span runat="server" id="NumberProductCart">1</span>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+     </header>
+     <div>
+          <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+          </asp:ContentPlaceHolder>
+     </div>
+     <footer>
+          <div class="footer-main">
+               <div class="container">
+                    <div class="footer-content">
+                         <div class="footer-Information">
+                              <div class="introduce css_ft">
+                                   <h3>GIỚI THIỆU CHOZOI</h3>
+                                   <ul>
+                                        <li><a href="">Giới thiệu về Chozoi</a></li>
+                                        <li><a href="">Thông báo</a></li>
+                                        <li><a href="">Quy chế hoạt động sàn TMDT</a></li>
+                                        <li><a href="">Điều khoản và điều kiên</a></li>
+                                   </ul>
+                              </div>
+                              <div class="customer-support css_ft">
+                                   <h3>HỖ TRỢ KHÁCH HÀNG</h3>
+                                   <ul>
+                                        <li><a>19001900-thứ 2 -> CN 9h -> 18h(hotline)</a></li>
+                                        <li><a>Chính sách bảo mật thanh toán</a></li>
+                                        <li><a>Chính sách đổi trả hàng</a></li>
+                                        <li><a>Chính sách bảo hành</a></li>
+                                        <li><a>Câu hỏi thường gặp</a></li>
+                                   </ul>
+                              </div>
+                              <div class="register-sales css_ft">
+                                   <h3>Văn  phòng hỗ trợ khách hàng</h3>
+                                   <ul>
+                                        <li><a>96 Định Công, Thanh Xuân, Hà Nội</a></li>
+                                        <li><a>18 Tam Trinh, Hai Bà Trưng, Hà Nội</a></li>
+                                        <li><a>Nguyễn Hiền, Hai Bà Trưng, Hà Nội</a></li>
+                                        <li><a>Nguyễn Trãi, Thanh Xuân, Hà Nội</a></li>
+                                   </ul>
+                              </div>
+                              <div class="sign-messages css_ft">
+                                   <h3>ĐĂNG KÝ NHẬN TIN NHẮN ƯU ĐÃI TỪ CHOZOI</h3>
+                                   <div class="sign-up-form">
+                                        <input type="text" class="mail" id="txt" placeholder="Nhâp email của bạn">
+                                        <button class="sign-in" onclick="test()">Đăng ký</button>
+                                   </div>
+                                   <script>
+                                        function test() {
+                                             var txt;
+                                             txt = document.getElementById("txt").value.trim();
+                                             if (txt.length < 5) {
+                                                  alert("Phải nhập hơn 5 kí tự!");
+                                             }else
+                                             {
+                                                  alert("ok!");
+                                                  window.location.href = "../danh_sach_san_pham.aspx?search=" + document.getElementById("txt").value.trim();
+                                             }
+
+                                        }
+                                   </script>
+
+                                   <div class="logo-header">
+                                        <img src="img/logoTwo.png" />
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </footer>
+</body>
+</html>

@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F3739B3B-E4E9-451A-A3E4-AE9915ADC2CB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BTL_Final</RootNamespace>
+    <AssemblyName>BTL_Final</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="chi_tiet_san_pham.aspx" />
+    <Content Include="CSS\gio_hang.css" />
+    <Content Include="CSS\user.css" />
+    <Content Include="danh_sach_san_pham.aspx" />
+    <Content Include="gio_hang.aspx" />
+    <Content Include="img\amd.jpg" />
+    <Content Include="img\apple.jpg" />
+    <Content Include="img\dell.jpg" />
+    <Content Include="img\hanh.png" />
+    <Content Include="img\hp.jpg" />
+    <Content Include="img\intel.jpg" />
+    <Content Include="img\logo-home.png" />
+    <Content Include="img\logo-ktm.jpg" />
+    <Content Include="img\motorola.jpg" />
+    <Content Include="img\nokia.jpg" />
+    <Content Include="img\samsung.jpg" />
+    <Content Include="Script\chi_tiet_san_pham.js" />
+    <Content Include="CSS\chi_tiet_san_pham.css" />
+    <Content Include="fonts\all.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\LICENSE.txt" />
+    <Content Include="fonts\sharefonts.net.txt" />
+    <Content Include="Header_Footer.Master" />
+    <Content Include="img\logoTwo.png" />
+    <Content Include="Script\gio_hang.js" />
+    <Content Include="Script\login.js" />
+    <Content Include="webfonts\fa-brands-400.svg" />
+    <Content Include="webfonts\fa-regular-400.svg" />
+    <Content Include="webfonts\fa-solid-900.svg" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\OpenSans-Italic.ttf" />
+    <Content Include="fonts\OpenSans-Light.ttf" />
+    <Content Include="fonts\OpenSans-LightItalic.ttf" />
+    <Content Include="fonts\OpenSans-Regular.ttf" />
+    <Content Include="fonts\OpenSans-Semibold.ttf" />
+    <Content Include="fonts\OpenSans-SemiboldItalic.ttf" />
+    <Content Include="fonts\Roboto-Black.ttf" />
+    <Content Include="fonts\Roboto-BlackItalic.ttf" />
+    <Content Include="fonts\Roboto-Bold.ttf" />
+    <Content Include="fonts\Roboto-BoldItalic.ttf" />
+    <Content Include="fonts\Roboto-Italic.ttf" />
+    <Content Include="fonts\Roboto-Light.ttf" />
+    <Content Include="fonts\Roboto-LightItalic.ttf" />
+    <Content Include="fonts\Roboto-Medium.ttf" />
+    <Content Include="fonts\Roboto-MediumItalic.ttf" />
+    <Content Include="fonts\Roboto-Regular.ttf" />
+    <Content Include="fonts\Roboto-Thin.ttf" />
+    <Content Include="fonts\Roboto-ThinItalic.ttf" />
+    <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="webfonts\fa-brands-400.eot" />
+    <Content Include="webfonts\fa-brands-400.ttf" />
+    <Content Include="webfonts\fa-brands-400.woff" />
+    <Content Include="webfonts\fa-brands-400.woff2" />
+    <Content Include="webfonts\fa-regular-400.eot" />
+    <Content Include="webfonts\fa-regular-400.ttf" />
+    <Content Include="webfonts\fa-regular-400.woff" />
+    <Content Include="webfonts\fa-regular-400.woff2" />
+    <Content Include="webfonts\fa-solid-900.eot" />
+    <Content Include="webfonts\fa-solid-900.ttf" />
+    <Content Include="webfonts\fa-solid-900.woff" />
+    <Content Include="webfonts\fa-solid-900.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS\font-awesome.min.css" />
+    <Content Include="CSS\style.css" />
+    <Content Include="img\1001.jpg" />
+    <Content Include="img\1002.jpg" />
+    <Content Include="img\1003.jpg" />
+    <Content Include="img\1004.jpg" />
+    <Content Include="img\1005.jpg" />
+    <Content Include="img\1006.jpg" />
+    <Content Include="img\1007.jpg" />
+    <Content Include="img\1008.jpg" />
+    <Content Include="img\1009.jpg" />
+    <Content Include="img\1010.jpg" />
+    <Content Include="img\1011.jpg" />
+    <Content Include="img\1012.jpg" />
+    <Content Include="img\1013.jpg" />
+    <Content Include="img\1014.jpg" />
+    <Content Include="img\1015.jpg" />
+    <Content Include="img\1016.jpg" />
+    <Content Include="img\1017.jpg" />
+    <Content Include="img\1018.jpg" />
+    <Content Include="img\1019.jpg" />
+    <Content Include="img\1020.jpg" />
+    <Content Include="img\1021.jpg" />
+    <Content Include="img\1022.jpg" />
+    <Content Include="img\1023.jpg" />
+    <Content Include="img\1024.jpg" />
+    <Content Include="img\1025.jpg" />
+    <Content Include="img\1026.jpg" />
+    <Content Include="img\1027.jpg" />
+    <Content Include="img\1028.jpg" />
+    <Content Include="img\1029.jpg" />
+    <Content Include="img\1030.jpg" />
+    <Content Include="img\1031.jpg" />
+    <Content Include="img\1032.jpg" />
+    <Content Include="img\1033.jpg" />
+    <Content Include="img\1033.png" />
+    <Content Include="img\1034.jpg" />
+    <Content Include="img\1035.jpg" />
+    <Content Include="img\1036.jpg" />
+    <Content Include="img\1037.jpg" />
+    <Content Include="img\1038.jpg" />
+    <Content Include="img\1039.jpg" />
+    <Content Include="img\1040.jpg" />
+    <Content Include="img\1041.jpg" />
+    <Content Include="img\1042.jpg" />
+    <Content Include="img\1043.jpg" />
+    <Content Include="img\1044.jpg" />
+    <Content Include="img\1045.jpg" />
+    <Content Include="img\1046.jpg" />
+    <Content Include="img\1047.jpg" />
+    <Content Include="img\1048.jpg" />
+    <Content Include="img\1049.jpg" />
+    <Content Include="img\1050.jpg" />
+    <Content Include="img\1051.jpg" />
+    <Content Include="img\1052.jpg" />
+    <Content Include="img\1053.jpg" />
+    <Content Include="img\1054.jpg" />
+    <Content Include="img\1055.jpg" />
+    <Content Include="img\1056.jpg" />
+    <Content Include="img\1057.jpg" />
+    <Content Include="img\1058.jpg" />
+    <Content Include="img\1059.jpg" />
+    <Content Include="img\1060.jpg" />
+    <Content Include="img\1061.jpg" />
+    <Content Include="img\1062.jpg" />
+    <Content Include="img\1063.jpg" />
+    <Content Include="img\1064.jpg" />
+    <Content Include="img\1065.jpg" />
+    <Content Include="img\1066.jpg" />
+    <Content Include="img\1067.jpg" />
+    <Content Include="img\1068.jpg" />
+    <Content Include="img\1069.jpg" />
+    <Content Include="img\1070.jpg" />
+    <Content Include="img\1071.jpg" />
+    <Content Include="img\1072.jpg" />
+    <Content Include="img\1073.jpg" />
+    <Content Include="img\1074.jpg" />
+    <Content Include="img\1075.jpg" />
+    <Content Include="img\1076.jpg" />
+    <Content Include="img\1077.jpg" />
+    <Content Include="img\1081.jpg" />
+    <Content Include="img\1083.jpg" />
+    <Content Include="img\1084.jpg" />
+    <Content Include="img\1085.jpg" />
+    <Content Include="img\1087.jpg" />
+    <Content Include="img\1096.jpg" />
+    <Content Include="img\1097.jpg" />
+    <Content Include="img\1098.jpg" />
+    <Content Include="img\1099.jpg" />
+    <Content Include="img\1100.jpg" />
+    <Content Include="img\1101.jpg" />
+    <Content Include="img\1102.jpg" />
+    <Content Include="img\1103.jpg" />
+    <Content Include="img\1104.jpg" />
+    <Content Include="img\1105.jpg" />
+    <Content Include="img\1106.jpg" />
+    <Content Include="img\1107.jpg" />
+    <Content Include="img\1108.jpg" />
+    <Content Include="img\1109.jpg" />
+    <Content Include="img\1110.jpg" />
+    <Content Include="img\1111.jpg" />
+    <Content Include="img\1112.jpg" />
+    <Content Include="img\1113.jpg" />
+    <Content Include="img\1114.jpg" />
+    <Content Include="img\1115.jpg" />
+    <Content Include="img\1116.jpg" />
+    <Content Include="img\1117.jpg" />
+    <Content Include="img\1118.jpg" />
+    <Content Include="img\1119.jpg" />
+    <Content Include="img\1120.gif" />
+    <Content Include="img\1121.gif" />
+    <Content Include="img\1122.jpg" />
+    <Content Include="img\1123.jpg" />
+    <Content Include="img\1124.png" />
+    <Content Include="img\gucci 1995.jpg" />
+    <Content Include="img\product.png" />
+    <Content Include="img\Rado 9500.jpg" />
+    <Content Include="index.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\Categories.cs" />
+    <Compile Include="chi_tiet_san_pham.aspx.cs">
+      <DependentUpon>chi_tiet_san_pham.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chi_tiet_san_pham.aspx.designer.cs">
+      <DependentUpon>chi_tiet_san_pham.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class\CartItems.cs" />
+    <Compile Include="Class\Customers.cs" />
+    <Compile Include="Class\DataProvider.cs" />
+    <Compile Include="Class\Products.cs" />
+    <Compile Include="danh_sach_san_pham.aspx.cs">
+      <DependentUpon>danh_sach_san_pham.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="danh_sach_san_pham.aspx.designer.cs">
+      <DependentUpon>danh_sach_san_pham.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gio_hang.aspx.cs">
+      <DependentUpon>gio_hang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gio_hang.aspx.designer.cs">
+      <DependentUpon>gio_hang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Header_Footer.Master.cs">
+      <DependentUpon>Header_Footer.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Header_Footer.Master.designer.cs">
+      <DependentUpon>Header_Footer.Master</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class\IndexPageProduct.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50618</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50618/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
